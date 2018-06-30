@@ -1,0 +1,138 @@
+
+
+    p{font-size: 20px}
+    #searchform{
+        width: 100%;
+        height:40px;
+        padding:0px;
+        margin:9px auto;
+        background: #292929  ;
+        border-radius: 0 3px 3px 0;
+        text-shadow: 0 -1px 0 rgba(82, 84 ,85, .3);
+       }  
+ 
+#searchform button:hover{
+    background: #FFF  ;
+}
+#searchform button:active,
+#searchform button:focus{
+    background: #0DABE2;
+}
+ 
+#searchform button:before { /* flecha */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #438cdb transparent;
+    top: 8px;
+    left: -5px;
+}
+# button:hover:before{
+    border-right-color: #2672e0;
+}
+ 
+#searchform button:focus:before{
+    border-right-color: #2672e0;
+} 
+    #foot{
+        width:97%;
+        height:40px;
+        font-size: 23px;font-family: palatino; 
+        padding:3px 0 0 3%; margin-top:5px;
+        background-color: #403E3E ;
+    }
+    #foot a:hover{color:#E6E6E6;text-decoration: underline;}
+    #foot a{color:#E6E6E6;text-decoration: none;}
+    #puntos{color: #403E3E ;}
+    }
+    #tamano{width:30%;}
+    .estilosdeparrafo{text-align:center;}
+    .blancouno{color:#044C6F;}
+    }
+    #explora{color: #044C6F;font-family: algerian;}
+    #el{color:#3A3A3A  ;font-family: algerian}
+    #granvacio{color:#3A3A3A  ;font-family: palatino}
+    h3{color:#323232;font-family: palatino;font-size: 13px;}
+    .palabrastabla {color:#FCFCFC;text-decoration: none;font-weight:normal;}
+    .palabrastabla a:hover{color:#E6E6E6;}
+    .pcompany{color:#464545;
+        font-size: 23px;font-family: palatino; 
+        padding:3px; margin-top:5px;text-decoration: none;
+    }
+    #banner{background-image: url("../imagenes/Banner.jpg"); width: 100%;height:140px;}
+    #banercolor{width: 100%;height:140px;background-color:rgba(239, 235, 235,0.8);}
+    #caja a:hover{color:#5C5D5D;font-weight:bold;}
+    #a2{color:rgb(239, 235, 235);}
+    .globaltam{width:40px;}
+    #divblanco{background-color: rgb(230, 230, 230); height:50px;}
+    .size{width:140px;background-color:rgba(255, 255, 255);}
+    .coolor{color: rgba(230, 230, 230 ,0.9);}
+    .buttoncolor{background-color:#006D9C;height: 20px;border-style: solid solid solid none;}
+    #letras{font-family: palatino;font-size:15px;color:#fff;}
+    #letrasafuera{font-family: palatino;font-size:18px;color:#444444 ;}
+
+	body{
+		background-image:url("../imagenes/Fondo del sitio.jpg");
+		background-attachment:fixed;
+
+	}
+	#tamano{width:20%;}
+	.estilosdeparrafo{text-align:center;}
+	#container{
+		margin: 0 10% 10% 10%;
+		border :1px ;
+		padding:10px 10px 10px 10px;
+		background-image:url("../imagenes/vieja.png");
+		background-attachment: fixed;
+	}
+	.blancouno{color:#044C6F;}
+	.rgba{
+		background-color: rgba(239, 235, 235,0.8);
+	}
+    .divfoot{
+    	display:inline-block;
+    	width:23.5%;
+    	height:300px;
+    	float:left;
+    	margin:0;
+    	background-color:#393939;
+    	padding:20px 10px 0 10px;
+    }
+    .divfoot a{text-decoration:none; color:#FFF;font-weight: normal;}
+    .divfoot a:hover{color:#ccc;text-decoration: underline;}
+    .spanfoot{font-size:22px;color:#A2C4D1;font-weight:bold;}
+    #caja{width: 100%;
+    	height:50px;
+    	background-color:#EEEEEE; padding: 0 0 0 0%;}
+    #a2{color:rgb(239, 235, 235);}
+    .letrapiedepagina{font-size:15px;}
+    .iconostam{width:110px;}
+    .facebook a:hover{background-image: url("../imagenes/Facebook_b.png");}
+    #instagram a:hover{background-image: url("../imagenes/Instagram_b.png");}
+    #twitter a:hover{background-image: url("../imagenes/Twiter_b.png");}
+    #youtube a:hover{background-image: url("../imagenes/Youtube_b.png");}
+    #linkedin a:hover{background-image: url("../imagenes/Likenin_b.png");}
+    #pinterest a:hover{background-image: url("../imagenes/Pinterest_b.png");}
+    .globaltam{width:40px;}
+    #divblanco{background-color: rgb(230, 230, 230); height:50px;}
+    .size{width:140px;background-color:rgba(255, 255, 255);}
+    .coolor{color: rgba(230, 230, 230 ,0.9);}
+    #letrasafuera{font-family: palatino;font-size:17px;color:#444444 ;}
+     #iframe-head{
+        width: 100%;
+        border: 0;
+        margin: 0;
+        height: 340px;
+     }
+    #iframe-foot{
+        width: 100%;
+        border: 0;
+        margin: 0;
+        height: 450px;
+     }
+     #recuadro{
+        width:100%;
+        height:40%;
+        background-image:url("../Imagenes/ImgE_1.jpeg");background-attachment:fixed;
+     }
